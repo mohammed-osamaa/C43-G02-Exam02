@@ -19,9 +19,6 @@ namespace Examination_System
             AnswerId = id;
             AnswerText = answerText;
         }
-        public Answer(string answerText) : this(0, answerText) // Create object to store correct answer
-        {
-        }
         #endregion
 
         #region Methods
